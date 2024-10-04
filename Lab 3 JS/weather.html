@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Weather App</title>
+		<link rel="stylesheet" href="weather.css" />
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<input
+					type="text"
+					autocomplete="on"
+					class="search-box"
+					placeholder="Search weather for your city"
+				/>
+			</header>
+			<main>
+				<section class="location">
+					<div class="city">Madhubani ,India</div>
+					<div class="date">Saturday 5 October 2024</div>
+				</section>
+				<div class="current">
+					<div class="temp">15<span>°c</span></div>
+					<div class="weather">Clouds</div>
+					<div class="hi-low">18°c / 22°c</div>
+				</div>
+			</main>
+		</div>
+		<script src="weatherLogic.js"></script>
+	</body>
+</html>
